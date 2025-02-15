@@ -5,30 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="/style.css" />
+    <link icon="image/png" href="/public/favico.png" />
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="navbar">
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
+        <!-- <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div> -->
       </nav>
     </header>
 
     <main>
       <section id="home" class="hero">
         <div class="hero-content">
-          <h1>Sat Set</h1>
-          <p class="subtitle">Web Developer</p>
+          <h1>RASTCRYPT</h1>
+          <p class="subtitle">DEVELOPER</p>
         </div>
       </section>
 
       <section id="about" class="about">
         <h2>About Me</h2>
         <div class="about-content">
+          <img src="/public/1.png" Abut Me Image class="about-image" />
           <p>I'm a passionate web developer with experience in creating responsive and user-friendly websites. I love turning ideas into reality through code.</p>
         </div>
       </section>
@@ -37,8 +44,15 @@
         <h2>My Projects</h2>
         <div class="project-grid">
           <div class="project-card">
-            <h3>Project 1</h3>
-            <p>A responsive website for a local business</p>
+            <h3>
+              
+              <a style="text-decoration: none;" 
+               href="#" target="_blank" >
+                <h6>TEst 12324</h6>
+              </a>
+              <img src="/public/1.png" Abut Me Image class="about-image" />
+            </h3>
+            <p>project colen youtube</p>
           </div>
           <div class="project-card">
             <h3>Project 2</h3>
@@ -50,13 +64,64 @@
           </div>
         </div>
       </section>
+      <section class="skills">
+        <h2>My Skills</h2>
+        <div class="skills-content">
+          <div>
+            <h3>Frontend</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Backend</h3>
+            <ul>
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>MongoDB</li>
+              <li>RESTful APIs</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience">
+        <h2>My Table</h2>
+        <table class="table">
+          <tr class="table-header">
+            <th>Company</th>
+            <th>Position</th>
+            <th>Duration</th>
+          </tr>
+          <tr>
+            <td>Company 1</td>
+            <td>Frontend Developer</td>
+            <td>2020-2021</td>
+          </tr>
+          <tr>
+            <td>Company 2</td>
+            <td>Full Stack Developer</td>
+            <td>2018-2020</td>
+          </tr>
+        </table>
+
+      </section>
 
       <section id="contact" class="contact">
         <h2>Contact Me</h2>
         <div class="contact-content">
-          <p>Email: john.doe@example.com</p>
+          <div>
+          <a href="#" target="_blank">
+          <span>Satset@gmail.com </span>
+          
+
+          </a>
           <p>LinkedIn: linkedin.com/in/johndoe</p>
           <p>GitHub: github.com/johndoe</p>
+          </div>
         </div>
       </section>
     </main>
