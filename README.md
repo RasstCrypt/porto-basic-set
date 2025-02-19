@@ -1,3 +1,8 @@
 # porto-basic-set
 
- 1
+testnet.humanity.org/login?ref=rastcrypt
+https://hanafuda.hana.network/dashboard  ZZ1N79
+
+https://testnet-faucet.reddio.com/
+
+
